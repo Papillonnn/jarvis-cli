@@ -1,0 +1,33 @@
+{
+  "name": "@cyl-cli/jarvis",
+  "version": "1.0.0",
+  "description": "自动打包提交代码脚手架",
+  "author": "1401577609@qq.com",
+  "main": "bin/cli.js",
+  "bin": {
+    "jarvis": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "dirname-filename-esm": "^1.1.1",
+    "execa": "^6.0.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.0.0",
+    "npmlog": "^6.0.0",
+    "ora": "^6.0.0",
+    "semver": "^7.5.4",
+    "simple-git": "^3.20.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "type": "module"
+}
