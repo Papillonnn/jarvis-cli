@@ -7,6 +7,11 @@
   "bin": {
     "jarvis": "bin/cli.js"
   },
+  "homepage": "https://github.com/Papillonnn/jarvis-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Papillonnn/jarvis-cli"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +19,6 @@
     "cli"
   ],
   "license": "ISC",
-  "homepage": "",
   "dependencies": {
     "commander": "^9.0.0",
     "dirname-filename-esm": "^1.1.1",
