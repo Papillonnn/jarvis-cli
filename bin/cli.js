@@ -6,6 +6,7 @@ import semver from "semver";
 import { dirname } from "dirname-filename-esm";
 import "./exception.js";
 import buildAction from "../command/build.js";
+import magicAction from "../command/magic.js";
 import { log } from "../utils/index.js";
 
 const __dirname = dirname(import.meta);
@@ -50,6 +51,11 @@ function preAction() {
     .description("build project then copy dist to target path")
     .allowUnknownOption()
     .action(buildAction);
+
+  program
+      .command("magic")
+      .description("魔术小游戏")
+      .action(magicAction)
 
   // 监听未知命令
   program.on('command:*', function (obj) {
